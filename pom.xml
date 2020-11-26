@@ -17,7 +17,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>petclinic</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <name>petclinic</name>
     <description>Spring SFG example application build</description>
 
@@ -55,7 +55,7 @@
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:manjo95/petclinic.git</developerConnection>
-      <tag>petclinic-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
 </project>
