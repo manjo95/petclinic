@@ -4,10 +4,6 @@ import com.example.petclinic.model.Vet;
 
 import java.util.Set;
 
-public interface VetService {
-    Vet findById(Long Id);
+public interface VetService extends CreudService<Vet, Long> {
 
-    Vet save(Vet vet);
-
-    Set<Vet> findAll();
 }
