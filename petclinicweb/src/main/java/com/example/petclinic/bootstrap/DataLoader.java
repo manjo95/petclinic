@@ -4,8 +4,6 @@ import com.example.petclinic.model.Owner;
 import com.example.petclinic.model.Vet;
 import com.example.petclinic.services.OwnerService;
 import com.example.petclinic.services.VetService;
-import com.example.petclinic.services.map.OwnerServiceMap;
-import com.example.petclinic.services.map.VetServiceMap;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
@@ -31,9 +29,9 @@ public class DataLoader implements CommandLineRunner {
         ownerService.save(owner1);
 
         Owner owner2 = new Owner();
-        owner1.setId(2L);
-        owner1.setFirstName("fnowner2");
-        owner1.setLastName("lnowner2");
+        owner2.setId(2L);
+        owner2.setFirstName("fnowner2");
+        owner2.setLastName("lnowner2");
 
         ownerService.save(owner2);
 
